@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@400;500;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #4F6D7A;
+    font-family: 'poppins', sans-serif;
+}
+
+@media (min-width: 1440px) {
+    .navbar-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-brand {
+        margin: auto;
+    }
+
+    .logo {
+        font-weight: bold;
+        font-family: 'lilita one', sans-serif;
+    }
+
+    .jarak {
+        margin: 80px;
+    }
+
+    .text-bold {
+        font-weight: bold;
+        font-size: 36px;
+    }
+
+    .text-reguler {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .text-outline {
+        font-weight: bold;
+        font-size: 36px;
+        color: #34515D;
+        text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    }
+
+    .jumbotron-container {
+        height: 110px;
+        margin-top: 180px;
+        background-color: #34515D;
+        position: relative;
+    }
+
+    .jumbotron-container img {
+        width: 55%;
+        position: absolute;
+        top: -150px;
+    }
+
+    .text-price {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 60px;
+        margin-top: 150px;
+    }
+
+    .size-img {
+        width: 100%;
+        transition: 0.3s ease-in-out;
+    }
+
+    .size-img:hover {
+        transform: scale(1.05);
+    }
+
+    .buttonfix {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .btn-light {
+        width: 100%;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 30px;
+        background-color: #4A6FA5;
+        color: #ffffff;
+    }
+
+    .btn-light:hover {
+        background-color: #45618a;
+        color: rgb(232, 232, 232);
+        /* Change the color as per your requirement */
+    }
+
+    .text-follow {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: -4px;
+        margin-top: 20px;
+    }
+
+    .jumbotron-sosmed {
+        background-color: #34515D;
+        position: relative;
+    }
+
+    .jumbotron-sosmed img {
+        width: 4%;
+        padding: 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .jumbotron-sosmed img:hover {
+        transform: scale(1.1);
+    }
+
+    .watermark {
+        font-size: 14px;
+        font-weight: lighter;
+        margin-top: 8px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .navbar-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-brand {
+        margin: auto;
+    }
+
+    .logo {
+        font-weight: bold;
+        font-family: 'lilita one', sans-serif;
+    }
+
+    .jarak {
+        margin: 80px;
+    }
+
+    .text-bold {
+        font-weight: bold;
+        font-size: 36px;
+    }
+
+    .text-reguler {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .text-outline {
+        font-weight: bold;
+        font-size: 36px;
+        color: #34515D;
+        text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    }
+
+    .jumbotron-container {
+        height: 110px;
+        margin-top: 180px;
+        background-color: #34515D;
+        position: relative;
+    }
+
+    .jumbotron-container img {
+        width: 55%;
+        position: absolute;
+        top: -150px;
+    }
+
+    .text-price {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 60px;
+        margin-top: 150px;
+    }
+
+    .size-img {
+        width: 100%;
+        transition: 0.3s ease-in-out;
+    }
+
+    .size-img:hover {
+        transform: scale(1.05);
+    }
+
+    .buttonfix {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .btn-light {
+        width: 100%;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 30px;
+        background-color: #4A6FA5;
+        color: #ffffff;
+    }
+
+    .btn-light:hover {
+        background-color: #45618a;
+        color: rgb(232, 232, 232);
+        /* Change the color as per your requirement */
+    }
+
+    .text-follow {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: -4px;
+        margin-top: 20px;
+    }
+
+    .jumbotron-sosmed {
+        background-color: #34515D;
+        position: relative;
+    }
+
+    .jumbotron-sosmed img {
+        width: 4%;
+        padding: 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .jumbotron-sosmed img:hover {
+        transform: scale(1.1);
+    }
+
+    .watermark {
+        font-size: 14px;
+        font-weight: lighter;
+        margin-top: 8px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .navbar-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-brand {
+        margin: auto;
+    }
+
+    .logo {
+        font-weight: bold;
+        font-family: 'lilita one', sans-serif;
+    }
+
+    .jarak {
+        margin: 60px;
+    }
+
+    .text-bold {
+        font-weight: bold;
+        font-size: 26px;
+    }
+
+    .text-reguler {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .text-outline {
+        font-weight: bold;
+        font-size: 26px;
+        color: #34515D;
+        text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    }
+
+    .jumbotron-container {
+        height: 110px;
+        margin-top: 120px;
+        background-color: #34515D;
+        position: relative;
+    }
+
+    .jumbotron-container img {
+        width: 80%;
+        position: absolute;
+        top: -100px;
+    }
+
+    .text-price {
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .size-img {
+        width: 100%;
+        transition: 0.3s ease-in-out;
+    }
+
+    .size-img:hover {
+        transform: scale(1.05);
+    }
+
+    .buttonfix {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .btn-light {
+        width: 100%;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 16px;
+        background-color: #4A6FA5;
+        color: #ffffff;
+    }
+
+    .btn-light:hover {
+        background-color: #45618a;
+        color: rgb(232, 232, 232);
+        /* Change the color as per your requirement */
+    }
+
+    .text-follow {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: -4px;
+        margin-top: 20px;
+    }
+
+    .jumbotron-sosmed {
+        background-color: #34515D;
+        position: relative;
+    }
+
+    .jumbotron-sosmed img {
+        width: 7%;
+        padding: 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .jumbotron-sosmed img:hover {
+        transform: scale(1.1);
+    }
+
+    .watermark {
+        font-size: 14px;
+        font-weight: lighter;
+        margin-top: 8px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .navbar-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-brand {
+        margin: auto;
+    }
+
+    .logo {
+        font-weight: bold;
+        font-family: 'lilita one', sans-serif;
+    }
+
+    .jarak {
+        margin: 40px;
+    }
+
+    .text-bold {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .text-reguler {
+        font-size: 10px;
+        font-weight: normal;
+    }
+
+    .text-outline {
+        font-weight: bold;
+        font-size: 16px;
+        color: #34515D;
+        text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    }
+
+    .jumbotron-container {
+        height: 70px;
+        margin-top: 60px;
+        background-color: #34515D;
+        position: relative;
+    }
+
+    .jumbotron-container img {
+        width: 90%;
+        position: absolute;
+        top: -50px;
+    }
+
+    .text-price {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+
+    .size-img {
+        width: 100%;
+        transition: 0.3s ease-in-out;
+    }
+
+    .size-img:hover {
+        transform: scale(1.05);
+    }
+
+    .buttonfix {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .btn-light {
+        width: 100%;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 10px;
+        background-color: #4A6FA5;
+        color: #ffffff;
+    }
+
+    .btn-light:hover {
+        background-color: #3d5d8e;
+        color: rgb(210, 210, 210);
+        /* Change the color as per your requirement */
+    }
+
+    .text-follow {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: -4px;
+        margin-top: 20px;
+    }
+
+    .jumbotron-sosmed {
+        background-color: #34515D;
+        position: relative;
+    }
+
+    .jumbotron-sosmed img {
+        width: 12%;
+        padding: 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .jumbotron-sosmed img:hover {
+        transform: scale(1.1);
+    }
+
+    .watermark {
+        font-size: 8px;
+        font-weight: lighter;
+        margin-top: 8px;
+    }
+}
